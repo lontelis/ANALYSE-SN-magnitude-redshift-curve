@@ -33,7 +33,7 @@ res = fitting.dothefit(z,mu0,dmu0,[.3,.7],functname=model2,method='minuit')
 # res[4] contains the best chi2 estimate of the fit
 # res[5] constains the number of degrees of freedom (ndf) of the fit., ndf = Number of data points - number of fitted parameters
 
-%matplotlib inline
+#%matplotlib inline
 figure(1,figsize=(15,10)),clf()
 errorbar(z,mu0,yerr=dmu0,fmt='.', label='SN Union2.1 Suzuki et Al. 2011') #,label='Riess et Al. 1998 High-Z Templates')
 xscale('linear'),ylabel('$\mu(z)$',size=25),xlabel('$z$',size=25)
