@@ -1,5 +1,7 @@
 # ANALYSE-SN-magnitude-redshift-curve
 
+Simplistic analysis of the Supernovae-magnitude-redshift-curve
+
 # dependencies
 <br />
 compatible with python 2.7 and python 3 <br />
